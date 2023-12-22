@@ -1,0 +1,24 @@
+<script>
+    import { page } from "$app/stores";
+    import { redirect } from "@sveltejs/kit";
+
+	console.log($page.data.user)
+</script>
+
+<svelte:head>
+	<title>Home</title>
+	<meta name="description" content="Svelte demo app" />
+</svelte:head>
+
+<section>
+
+</section>
+
+<style>
+	section {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+</style>
